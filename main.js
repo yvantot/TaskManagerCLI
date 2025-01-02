@@ -132,6 +132,7 @@ async function userAction(userdata, userid, prompt) {
 	let doExit = false;
 	const user = userdata.users[userdata.users.findIndex((user) => user.userid === userid)];
 
+	// SUGGESTION: Holy crap, I'm instancing RegExp Objects everytime the user chooses an action :/
 	const tasksParser = new RegExp(String.raw`^[ ]*[a-zA-Z]+[\s]+[(]?[ ]*([\d]*)[ ]*[)]?[ ]*"([^"]*)"`);
 	const keywordParser = new RegExp(String.raw`^[ ]*([a-zA-Z-]{3,})`);
 	const listParser = new RegExp(String.raw`^[ ]*list[ ]+([a-zA-Z]*)[ ]*([a-zA-Z]*)[ ]*([a-zA-Z]*)`);
