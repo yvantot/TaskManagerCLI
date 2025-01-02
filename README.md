@@ -1,5 +1,5 @@
 <h1>Task Manager CLI</h1>
-<p>Purpose: To learn Node.js and Regex</p>
+<p>Purpose: To learn Node.js, Regex and Git</p>
 <p>Project duration: 10 hrs</p>
 <br/>
 <h2>Example Usage:</h2>
