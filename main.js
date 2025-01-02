@@ -15,6 +15,7 @@ const rl = readline.createInterface({ input, output });
 // But, nah. I'll proceed to my next practice.
 
 // Anyway, I could've export the functions to make my file more modular, but nah. I gotta sleep
+// PS: I should start learing Typescript because JS is so wonky, like, very unpredictable with its types.
 
 main();
 
